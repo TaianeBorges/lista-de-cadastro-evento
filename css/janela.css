@@ -1,0 +1,56 @@
+
+.window{
+	
+	display: none;
+	width: 419px;
+	height: 172px;
+	position: absolute;
+	background:  url('/assets/img/img-fund-modal.png');
+
+	left: 0;
+	top:0;
+	z-index: 9900;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;	
+	text-align: center;
+	opacity: 5;
+	
+}
+
+.window h2{
+	filter: none;
+}
+
+
+
+
+#mascara{
+	
+	display: none;
+	position: absolute;
+	background: #000 ;
+	left: 0;
+	top:0;
+	z-index: 9000;
+
+}
+
+.fechar{
+	
+	display: block;
+	text-align:end;
+}
+
+#btn{
+    border-radius: 50px;
+    background-color: orange;
+    color: var(--principal);
+    border-color: orange;
+    font-size: 20px;
+    align-items: flex-end;
+	text-align: end;
+	margin-top: -1rem;
+
+
+} 
